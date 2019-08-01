@@ -1,0 +1,26 @@
+/* 전체선택자 */
+* {
+  color:red;
+}
+h1{
+  color:blue
+}
+.pink {
+  color:pink
+}
+.yellow{
+  color:yellow
+}
+.bold {
+  font-weight: bold;
+}
+#green{
+  color:greenyellow
+}
+#purple{
+  color:purple
+}
+#orange{
+  color:brown !important;
+  color:orange
+}

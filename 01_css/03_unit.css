@@ -1,0 +1,23 @@
+section {
+  font-size: 50%
+}
+h1 {
+  /* font-size: 2em;<= h1기본폰트사이즈 */
+  color: darkgoldenrod;
+  /* 디폴트(16px)의 50% -> 8px적용 */
+  font-size: 50%;
+}
+section > h2 {
+  color: skyblue;
+  /* 상속의 영향(section은 8px) */
+  font-size:3em;
+}
+ul {
+  /* 루트(16px)의 2배 -> 32px(상속의 영향X) */
+  font-size: 2rem;
+}
+#box{
+  width: 50vw;
+  height:100px;
+  background-color: blueviolet
+}

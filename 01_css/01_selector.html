@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>css selector</title>
+  <link rel="stylesheet" href="01_selector.css">
+</head>
+<body>
+  <p>빨간색</p>
+  <h1>태그선택자</h1>
+  <h2 class="pink">클래스 선택자</h2>
+  <h3 id="green">아이디 선택자</h3> 
+  <!-- 아이디는 고유! 여러개 작성은 가능하지만 하지마! -->
+  <h3 id="purple" class="pink">아이디? 클래스?</h3>
+  <h1 class="pink">클래스? 태그</h1>
+<!-- 
+  스팬태그와 div태그는 모두 의미는 없지만, '마크업'을 해야 css를 적용 시킬 수 있기때문에 활용된다.
+  특정한 곳을 지정해야하고 따라서 선택자가 필요하게되고 선택자를 잡기위해서는
+  마크없이 필요한 것이다.
+ -->
+
+  <p><span class="pink">핑크핑크</span>, <span class="yellow">노랑노랑</span> </p>
+  <p class="bold yellow pink">나는 무슨색일까</p>
+  <!-- css상에서 yellow 가 아래가잇기때문에 우선순위 -->
+  <p class="bold yellow purple" id="orange" style="color:salmon">가장강한우선순위</p>
+</body>
+</html>

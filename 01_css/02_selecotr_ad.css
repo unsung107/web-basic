@@ -1,0 +1,35 @@
+/* 그룹선택자 */
+h1, h2, h3, h4, h5, h6, .binch{
+  color: chocolate
+}
+
+/* 인접 형태 선택자 */
+.red + .blue + div{
+  background-color:purple
+}
+/* 일반 형재 선택자 */
+
+h2 ~ p {
+  color:green
+}
+/* 자식 선택자 */
+.parent > li{
+  color:red
+}
+/* 후손 선택자 */
+.ancestor li{
+  color:blue
+}
+/* div setting */
+div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+.blue {
+  background-color: blue
+
+}
+.red {
+  background-color: red;
+}

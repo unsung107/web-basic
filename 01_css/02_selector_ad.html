@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS selector advanced</title>
+  <link rel="stylesheet" href="02_selecotr_ad.css">
+</head>
+
+<body>
+  <!-- group selector -->
+  <h1>그룹 선택자 적용용용용용용용가리</h1>
+  <p class="binch">그룹 선택자적용용용용용</p>
+
+  <!-- 인접형제 선택자 
+  문법 : s1+s2 {attribute:value;}
+같은부모를가지고 s1뒤에오는 s2에 적용ㅎㄴ다-->
+  <div class="red">RED!!</div>
+  <div class="blue">Blue!!!!</div>
+  <div>purple?</div>
+
+  <!-- 일반형제 선태자
+  문법 : s1 ~ s2 {attribute:value;} 
+같은 부모를 갖고 s1 뒤에오는 s2에 적용한다. 바로뒤에 올 필요없음-->
+  <h2>일반형제선택자</h2>
+  <p>형제!</p>
+  <p>형제!</p>
+  <!-- 자식 선택자 -->
+  <ol>
+    <ul>
+      <li> ol > ul > li</li>
+    </ul>
+  </ol>
+  <ol class="parent">
+    <li>ol > li</li>
+  </ol>
+  <!-- 후손 선택자 -->
+  <ol class="ancestor">
+    <ul>
+      <li> ol > ul > li</li>
+    </ul>
+  </ol>
+  <ol class="ancestor">
+    <li>ol > li</li>
+  </ol>
+
+</body>
+
+</html>
