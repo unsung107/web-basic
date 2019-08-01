@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- 세살버릇 여든간다 3 -->
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+<body>
+  <!-- action 은 form 의 제출할지 정함 액션에 샵을 넣으면 아무데도보내지않겟다-->
+  <form action="#">
+    TEXT: <input type="text" placeholder="내용을입력해주세요" name="jason-text"/><br/>
+    NUMBER: <input type="number"/ disabled><br/>
+    PASSWORD: <input type="password" name="" id=""/><br/>
+    E-MAIL: <input type="email" name="" id=""/><br/>
+    DATE: <input type="date" value="1993-06-16" name="birth-day" id=""/><br/>
+
+    <input type="radio" name="language" value="1"/>HTML<br/>
+    <input type="radio" name="language" value="2" checked/>CSS<br/>
+    <input type="radio" name="language" value="3"/>JAVA<br/>
+    <hr>
+    <select name="country">
+      <option value="1">한국</option>
+      <option value="2" selected>중국</option>
+      <option value="3" disabled>일본</option>
+    </select><br/>
+
+    <input type="checkbox" name="option" value="1"/><br/>
+    <input type="color" value="#ff00ff">
+    <input type="submit" />
+
+  </form>
+</body>
+</html>
